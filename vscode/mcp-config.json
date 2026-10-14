@@ -1,0 +1,11 @@
+{
+	"mcpServers": {
+		"ONTAPMCP": {
+			"type": "http",
+			"url": "http://nabox/mcp/ontap/",
+			"headers": {
+				"Authorization": "Bearer APIKEYHERE"
+			}
+		}
+	}
+}
