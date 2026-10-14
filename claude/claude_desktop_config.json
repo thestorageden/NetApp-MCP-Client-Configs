@@ -1,0 +1,18 @@
+{
+  "mcpServers": { 
+      "ontapmcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://nabox/mcp/ontap/",
+        "--allow-http",
+        "--header",
+        "Authorization:${AUTH_HEADER}"
+      ],
+      "env": {
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0",
+        "AUTH_HEADER": "Bearer APIKEYHERE"
+      }
+    }
+  },
